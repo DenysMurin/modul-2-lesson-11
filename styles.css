@@ -15,17 +15,19 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  gap: 24px;
 }
 
 .btn {
   width: 192px;
   height: 48px;
-  border: 1px solid brown;
+  border: 1px solid var(--text-color);
   border-radius: 4px;
   font-size: 24px;
   cursor: pointer;
   background-color: var(--btn-color);
   color: var(--text-color);
+  
 }
 
 .btn:hover {
